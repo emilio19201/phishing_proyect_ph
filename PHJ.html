@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script type="module" src="firebaseconect.js"></script>
   <title>Registro Modal</title>
   <style>
     body {
@@ -100,7 +101,7 @@
 <div class="overlay" id="loginModal">
   <div class="modal">
     <span class="close" onclick="closeModal()">×</span>
-    <img src="https://i.imgur.com/ZZW4aXt.png" alt="Promo" />
+    <img src="https://www.erocurves.com/models/riley-reid/">
     <h1>Regístrate gratis</h1>
 
     <div class="features">
@@ -114,7 +115,7 @@
 
     <div class="strength" id="strength">Strength:</div>
 
-    <button onclick="register()">Regístrate</button>
+    <button id="registro">Regístrate</button>
   </div>
 </div>
 
@@ -125,7 +126,7 @@
 
   function register() {
     const email = document.getElementById("email").value;
-    const pass = document.getElementById("password").value;
+    const password = document.getElementById("password").value;
     alert(`Registrado con: ${email}`);
   }
 
@@ -143,6 +144,5 @@
     }
   }
 </script>
-
 </body>
 </html>
