@@ -24,7 +24,7 @@ git clone https://github.com/emilio19201/phishing_proyect_ph.git
 
 Entra a la carpeta del proyecto:
 
-Abre el archivo index.html en tu navegador (usa Live Server o doble clic).
+Abre el archivo PHJ.html en tu navegador (usa Live Server o doble clic).
 
 Asegúrate de tener tu proyecto configurado en Firebase Console y reemplaza las credenciales en firebaseconect.js con las tuyas.
 
