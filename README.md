@@ -20,11 +20,9 @@ Firebase Authentication v11.8.1
 
 Clona el repositorio:
 
-git clone https://github.com/TU_USUARIO/registro-firebase.git
+git clone https://github.com/emilio19201/phishing_proyect_ph.git
 
 Entra a la carpeta del proyecto:
-
-cd registro-firebase
 
 Abre el archivo index.html en tu navegador (usa Live Server o doble clic).
 
